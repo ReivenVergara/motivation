@@ -1,0 +1,126 @@
+p{
+font-family: arial;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5px;
+font-weight: bold;
+margin-bottom: 5px;
+
+}
+
+a:focus{
+    outline: none;
+}
+
+#button-grid{
+
+  display: grid;
+  grid-template-columns: repeat(2, 150px); /* 2 columns */
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+body{
+    margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+    }
+
+
+#first{
+
+
+    transition: .5s;
+    background-color: red;
+    border-color: red;
+    color: blanchedalmond;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    border-top-left-radius: 50px;
+    cursor: pointer;
+    
+}
+#first:hover{
+background-color: blanchedalmond;
+color: red;
+border-color: red;
+box-shadow: 3px 3px 8px gray;
+
+}
+
+#second{
+    transition: .5s;
+    background-color: green;
+    border-color: green;
+    color: blanchedalmond;
+    width: 150px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+}
+#second:hover{
+background-color: blanchedalmond;
+color: green;
+border-color: green;
+box-shadow: -3px 3px 8px gray;
+}
+
+#third{
+    transition: .5s;
+    background-color: blue;
+    border-color: blue;
+    color: blanchedalmond;
+    width: 150px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+}
+#third:hover{
+background-color: blanchedalmond;
+color: blue;
+border-color: blue;
+box-shadow: 3px -3px 8px gray;
+}
+
+
+#fourth{
+    transition: .5s;
+    background-color: rgb(255, 255, 0);
+    border-color: rgb(255, 255, 0);
+    color: blanchedalmond;
+    width: 150px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+#fourth:hover{
+background-color: blanchedalmond;
+color: rgb(255, 255, 0);
+border-color: rgb(255, 255, 0);
+box-shadow: -3px -3px 8px gray;
+}
+
+
